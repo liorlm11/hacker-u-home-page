@@ -1,0 +1,123 @@
+.our-process {
+    text-align: right;
+    direction: rtl;
+    padding-bottom: 30px;
+
+    display: none;
+    @media (min-width: 961px) {
+        display: block;
+    }
+
+    h4 {
+        font-size: 28px;
+        margin-bottom: 13px;
+        color: #333;
+        font-weight: 700;
+    }
+
+    .cards-container {
+        display: flex;
+
+    }
+
+    .card {
+        
+        width: 220px;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+        border-radius: 0;
+
+        .card__number-container {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 8px;
+        }
+
+        .card__number {
+            background: #fff;
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            align-items: center;
+            text-align: center;
+            
+            span {
+                font-size: 35px;
+                font-weight: 600;
+                color: #0598A8;
+            }
+        }
+
+        .card_title {
+            font-size: 24px;
+            font-weight: 500;
+            text-align: center;
+            color: #fff;
+        }
+
+        .card_dividing-line {
+            height: 1px;
+            width: 197px;
+            background: #fff;
+            margin: 10px auto;
+        }
+
+        p {
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 1.2;
+            text-align: center;
+            color: #fff;
+            padding: 0px 15px;
+        }
+    }
+
+    .card-1 {
+        background: #0598A8;
+    }
+    .card-2 {
+        background: rgb(57, 164, 220); 
+        margin-right: 16px;
+    }
+    .card-3 {
+        background: rgb(21, 75, 156);
+        margin-right: 16px;
+    }
+    .card-4 {
+        background: rgb(53, 47, 138);
+        margin-right: 16px;
+    }
+
+    .button-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+
+        button {
+            height: 60px;
+            display: inline-block;
+            background: #18FFFF;
+            margin-bottom: 16px;
+            border: none;
+            margin: 49px auto 0;
+            width: 302px;
+            height: 70px;
+            padding: 3px;
+            background: #213a7f;
+            
+            .button-inside {
+                border: 2px solid#fff;
+                height: 100%;
+                text-align: center;
+                color: #fff;
+                font-weight: 600;
+                font-size: 21px;
+                padding-top: 10px;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,142 @@
+.courses {
+
+    background: #f5f8f9;
+    padding-top: 60px;
+    direction: rtl;
+
+    @media (max-width: 960px) {
+        padding-top: 20px;
+        
+    }
+    
+    
+    .courses-header {
+        font-size: 37px;
+        font-weight: 700;
+        margin: 0;
+        margin-bottom: 10px;
+        text-align: right;
+        color: #333;
+        @media (max-width: 960px) {
+            text-align: center;
+        }
+        
+    }
+
+    .courses-list-and-details-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        @media (max-width: 960px) {
+            justify-content: center;
+        }
+        
+    }
+    
+    .courses-container {
+        margin-right: -20px;
+        width: 630px;
+        margin-bottom: 20px;
+        @media ( max-width: 960px) {
+            width: 100%;
+            text-align: center;
+        }
+        
+    }
+    
+    .course-container {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        float: right;
+        margin-top: 20px;
+        width: 141px;
+        height: 140px;
+        margin-left: 12.6px;
+        text-align: Center;
+        font-size: 16.5px;
+        
+        
+
+        
+        @media (max-width: 960px) {
+            float: unset
+        }
+        @media (max-width: 480px) {
+            
+            flex-direction: row;
+            width: 116%;
+            height: auto;
+            text-align: right;
+            padding: 5px;
+            margin-top: 5px;
+            border: 1px solid rgba(204,204,204,0.5);
+            margin-right: -17px;
+            
+        }
+        &:hover {
+            opacity: 0.5 !important;
+        }
+    }
+
+    .course-seperator {
+        width: 40px;
+        height: 4px;
+        margin: 10px auto 0;
+        border-radius: 10px;
+        background: #0598A8;
+        @media (max-width: 480px) {
+            width: 4px;
+            height: 40px;
+            margin: 0 10px;
+        }
+    }
+
+    .course-icon {
+        width: 40px;
+        min-width: 40px;
+        margin: 0 auto;
+        @media (max-width: 480px) {
+            margin: 0;          
+        }
+        
+    }
+
+    .course-name {
+        height: 41px;
+        line-height: 1;
+        font-size: 13.5px;
+        margin-top: 5px;
+        color: #333;
+        @media (max-width: 480px) {
+           margin: 0;
+           width: 65%;
+           height: auto;
+           
+           
+        }
+        
+    }
+    
+}
+
+.contact-form {
+   display: none;
+    @media (min-width: 961px) {
+        display: block;
+    }
+}
+
+.icon2 {
+    content: url('../../../images/arrow.svg');
+    position: absolute;
+    left: 1em;
+    width: 10px;
+
+    
+    @media (min-width: 480px) {
+        display: none;
+    }
+}
+

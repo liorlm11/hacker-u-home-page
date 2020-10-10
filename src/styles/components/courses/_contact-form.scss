@@ -1,0 +1,115 @@
+.contact-form {
+    direction: rtl;
+    width: 300px;
+    height: 490px;
+    background: linear-gradient(135deg, #8e24aa 2%,#0d47a1 100%);
+    margin-top: 18px;
+    padding-top: 22px;
+    margin-bottom: 7px;
+    
+
+    .contact-form__title {
+        padding-right: 18px;
+        color: #fff;
+        text-align: right;
+        font-size: 21px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+        
+        .input-container {
+            background-color: white;
+            margin: 0;
+            margin-bottom: 22px;
+            width: 260px;
+            height: 60px;
+            padding-right: 8px;
+            color: #373737;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+
+            label {
+                text-align: right;
+                top: 15px;
+                width: 70px;
+                padding-top: 5px;
+                font-size: 14px;
+                font-weight: 600;
+            }
+
+            span {
+                color: #213b7f;
+                text-align: left;
+                font-size: 26px;
+                font-weight: 300;
+                padding-bottom: 8px;
+            }
+
+            input {
+                border: none;
+                font-size: 14px;
+                margin-bottom: 4px;
+                &:focus{
+                    outline: none;
+                }
+            }
+        }
+        .agreement {
+            width: 260px;
+            // background-color: yellow;
+            display: flex;
+
+            label {
+                text-align: right;
+                float: right;
+                font-size: 13px;
+                color: #fff;
+                width: 190px;
+                margin-right: 10px;
+            }
+            input {
+                margin-top: 5px;
+            }
+            
+        }
+
+        .privacy-policy {
+            width: 100%;
+            margin-top: 6px;
+            text-align: center;
+            margin-bottom: 10px;
+            
+            a {
+                color: white;
+                font-size: 12px;
+            }
+            
+        }
+        
+        button {
+            height: 60px;
+            display: inline-block;
+            background: #18FFFF;
+            margin-bottom: 16px;
+            border: none;
+            padding: 2px;
+
+            .button-inside {
+                border: 2px solid #00B8D4;
+                height: 100%;
+                // border-color: #00B8D4;
+                color: black !important;
+                font-weight: 600;
+                font-size: 29px;
+                padding-top: 4px;
+            }
+        }
+    }
+
+}

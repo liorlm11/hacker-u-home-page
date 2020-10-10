@@ -1,0 +1,30 @@
+.how-it-works {
+    background: #fbfcfc;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: right;
+    
+    h3 {
+        color: #333;
+        font-size: 38px;
+        font-weight: 700;
+        margin: 0 0 15px
+    }
+
+    .paragraphs-container {
+        display: flex;
+        flex-direction: row;
+        float: right;
+        @media (max-width: 960px) {
+            flex-direction: column;
+        }
+    }
+
+    p {
+        width: 290px;
+        color: #333;
+        font-size: 16px;
+        margin-left: 17px;
+        direction: rtl;
+    }
+}
